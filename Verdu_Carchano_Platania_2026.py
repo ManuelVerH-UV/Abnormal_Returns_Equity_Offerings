@@ -125,8 +125,6 @@ def model(DATA, Series):
 
 #################### START OF THE CODE ####################
 
-os.chdir('/Users/manuelverduhenares/Library/CloudStorage/Dropbox/1_Investigación/10_BBDD/2026_Verdu_Carchano_Platania_EdE')
-
 DATA = pd.read_csv('Verdu_Carchano_Platania_2026_Data.csv', sep = ';')
 DATA = DATA.drop('Unnamed: 0', axis=1)
 DATAC = DATA.drop_duplicates(subset=['RIC'])
