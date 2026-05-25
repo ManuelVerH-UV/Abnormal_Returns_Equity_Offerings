@@ -1,1 +1,0 @@
-# Abnormal_Returns_Equity_Offerings
